@@ -1,0 +1,96 @@
+.lastNews {
+	p {
+		padding-right: 35%;
+		margin: 0;
+	}
+}
+
+.newInfo {
+	display: flex;
+	div {
+		display: flex;
+		align-items: center;
+		img {
+			width: 16px;
+			height: 16px;
+			margin: 0px 7px 2px 7px;
+		}
+		span {
+			margin: 0;
+			color: #8f8f8f;
+			padding: 0;
+			font-family: Roboto;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 14px;
+			line-height: 24px;
+			letter-spacing: 0.1px;
+		}
+	}
+	.eye {
+		border-left: 1px solid rgb(255, 255, 255);
+		margin-left: 10px;
+		img {
+			width: 20px;
+			height: 20px;
+		}
+	}
+}
+.newsMore {
+	.newsImg {
+		img {
+			width: 100%;
+		}
+	}
+	.newsCaption {
+		p {
+			font-family: Roboto;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 16px;
+			line-height: 24px;
+			letter-spacing: 0.1px;
+			color: #212121;
+		}
+	}
+	.rightItem {
+		justify-content: flex-start !important;
+		.rightOneBg,
+		.rightSecondBg {
+			padding-top: 80% !important;
+		}
+		.bgOne {
+			background: url(../images/sharapat.png) no-repeat center !important;
+		}
+		.bgTwo {
+			background: url(../images/yordam.png) no-repeat center !important;
+		}
+		.bgThree {
+			background: url(../images/shavkat.png) no-repeat center !important;
+		}
+		.bgFive {
+			background: url(../images/bilim.png) no-repeat center !important;
+		}
+	}
+	.someNews {
+		h6 {
+			font-family: Roboto;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 20px;
+			line-height: 24px;
+			/* identical to box height, or 120% */
+
+			letter-spacing: 0.2px;
+
+			/* Extra color 2 */
+
+			color: #00264d;
+		}
+	}
+}
+.share{
+    img{
+        margin-left: 10px;
+    }
+}

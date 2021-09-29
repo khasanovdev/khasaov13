@@ -1,0 +1,120 @@
+.div .productImg {
+  width: 100%;
+  height: 100%;
+}
+
+.div .productImg img {
+  width: 100%;
+}
+
+.div .productImg .warning {
+  border-top: 1px solid #e0e0e0;
+}
+
+.div .productImg .warning ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.div .productImg .warning ul li {
+  list-style: none;
+}
+
+.div .productImg .warning ul li a {
+  text-decoration: none;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #121212;
+}
+
+.div .productImg .warning ul li a img {
+  width: 14px;
+}
+
+.div .productImg .warning ul li a span {
+  margin-left: 3px;
+}
+
+.div .productMiniImg ul {
+  padding: 0;
+  margin: 0;
+}
+
+.div .productMiniImg ul li {
+  list-style: none;
+  padding: 5px 0;
+  cursor: pointer;
+}
+
+.div .productMiniImg ul li:first-child {
+  padding: 0 0 5px 0;
+  margin: 0;
+}
+
+.div .productMiniImg ul li:last-child {
+  padding: 5px 0 0 0;
+  margin: 0;
+}
+
+.div .productMiniImg ul li img {
+  width: 100%;
+}
+
+.div .productInfo p {
+  margin: 0;
+}
+
+.div .productInfo ul {
+  padding: 0;
+  margin-left: 10px;
+}
+
+.div .productInfo ul li {
+  list-style-type: "- ";
+}
+
+.div .productName h6 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 48px;
+}
+
+.div .productPrice h4 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 48px;
+}
+
+.div .productInfo p,
+.div .productInfo li {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  color: #333333;
+}
+
+.div .some h4 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 24px;
+  color: #333333;
+}
+
+.sec {
+  margin-top: 4.3rem !important;
+}
+/*# sourceMappingURL=product.css.map */

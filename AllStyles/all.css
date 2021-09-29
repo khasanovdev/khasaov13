@@ -1,0 +1,187 @@
+.container {
+  position: relative;
+}
+
+.favorit {
+  text-decoration: none;
+  margin-right: 10px;
+  position: relative;
+}
+
+.favorit span {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 5px;
+  position: absolute;
+  height: 15px;
+  left: calc(50% - 30px / 2 + 13px);
+  top: calc(50% - 19px / 2 - 8px);
+  background: #ff0000;
+  border-radius: 75px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.input-group {
+  width: 50% !important;
+}
+
+nav {
+  position: fixed !important;
+  z-index: 999;
+  background: #fff;
+  width: 82.8%;
+  top: 0;
+}
+
+main,
+.main {
+  margin-top: 6rem !important;
+}
+
+main .col-md-3 .product,
+.main .col-md-3 .product {
+  box-shadow: 0px 0px 8px 4px rgba(51, 51, 51, 0.06);
+  border-radius: 8px;
+  padding: 12px;
+  position: relative;
+}
+
+main .col-md-3 .product img,
+.main .col-md-3 .product img {
+  width: 100%;
+}
+
+main .col-md-3 .product h6,
+.main .col-md-3 .product h6 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #121212;
+  margin-top: 12px;
+}
+
+main .col-md-3 .product p,
+.main .col-md-3 .product p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: #333333;
+}
+
+main .col-md-3 .product .like,
+main .col-md-3 .product .dislike,
+.main .col-md-3 .product .like,
+.main .col-md-3 .product .dislike {
+  width: 25px;
+  position: absolute;
+  bottom: 105px;
+  right: 25px;
+  cursor: pointer;
+}
+
+.leftPanel {
+  position: fixed;
+  top: 68px;
+  left: 0;
+  width: 25%;
+  height: 100vh;
+  background: #f5f5f6;
+  overflow-y: scroll;
+}
+
+.leftPanel .service ul {
+  margin: 20px 0;
+  padding: 0;
+}
+
+.leftPanel .service ul li {
+  list-style: none;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.leftPanel .service ul li a {
+  text-decoration: none;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border-right: 2px solid transparent;
+  cursor: pointer;
+  padding-left: 30%;
+}
+
+.leftPanel .service ul li a p {
+  margin: 0 0 3px 10px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333333;
+}
+
+.leftPanel .service ul li a:hover {
+  background: #fff;
+  border-right: 2px solid #0073ff;
+}
+
+.catalogLink_active {
+  background: #fff;
+  border-right: 2px solid #0073ff !important;
+}
+
+.rightPanel {
+  position: fixed;
+  top: 68px;
+  left: 25%;
+  width: 66.8%;
+  height: 100vh;
+  background: #f5f5f6;
+  overflow-y: scroll;
+  padding: 30px 0 0 30px;
+}
+
+.rightPanel .tabContent h4 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 24px;
+  color: #333333;
+}
+
+.rightPanel .tabContent .row ul {
+  margin: 0;
+  padding: 0;
+}
+
+.rightPanel .tabContent .row ul li {
+  list-style: none;
+}
+
+.rightPanel .tabContent .row ul li a {
+  text-decoration: none;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: right;
+  color: #333333;
+}
+
+.rightPanel .tabContent .row ul li a:hover {
+  text-decoration: underline;
+}
+/*# sourceMappingURL=all.css.map */

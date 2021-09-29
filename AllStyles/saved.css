@@ -1,0 +1,60 @@
+.saved,
+.savedFull {
+  padding-top: 120px;
+}
+
+.saved .tabConten h4,
+.savedFull .tabConten h4 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 24px;
+  color: #333333;
+}
+
+.saved .tabConten .savedEmpty p,
+.savedFull .tabConten .savedEmpty p {
+  margin: 0 10px 0 0;
+  font-family: Inter;
+  font-size: 14px;
+}
+
+.saved .tabConten .savedEmpty .emptyContent,
+.savedFull .tabConten .savedEmpty .emptyContent {
+  transform: translate(0%, 200%);
+}
+
+.saved .tabConten .savedEmpty .main,
+.savedFull .tabConten .savedEmpty .main {
+  margin-top: 2rem !important;
+}
+
+.saved .tabConten .row ul,
+.savedFull .tabConten .row ul {
+  margin: 0;
+  padding: 0;
+}
+
+.saved .tabConten .row ul li,
+.savedFull .tabConten .row ul li {
+  list-style: none;
+}
+
+.saved .tabConten .row ul li a,
+.savedFull .tabConten .row ul li a {
+  text-decoration: none;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: right;
+  color: #333333;
+}
+
+.saved .tabConten .row ul li a:hover,
+.savedFull .tabConten .row ul li a:hover {
+  text-decoration: underline;
+}
+/*# sourceMappingURL=saved.css.map */

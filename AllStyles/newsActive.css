@@ -1,0 +1,97 @@
+.lastNews p {
+  padding-right: 35%;
+  margin: 0;
+}
+
+.newInfo {
+  display: flex;
+}
+
+.newInfo div {
+  display: flex;
+  align-items: center;
+}
+
+.newInfo div img {
+  width: 16px;
+  height: 16px;
+  margin: 0px 7px 2px 7px;
+}
+
+.newInfo div span {
+  margin: 0;
+  color: #8f8f8f;
+  padding: 0;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+}
+
+.newInfo .eye {
+  border-left: 1px solid white;
+  margin-left: 10px;
+}
+
+.newInfo .eye img {
+  width: 20px;
+  height: 20px;
+}
+
+.newsMore .newsImg img {
+  width: 100%;
+}
+
+.newsMore .newsCaption p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  color: #212121;
+}
+
+.newsMore .rightItem {
+  justify-content: flex-start !important;
+}
+
+.newsMore .rightItem .rightOneBg,
+.newsMore .rightItem .rightSecondBg {
+  padding-top: 80% !important;
+}
+
+.newsMore .rightItem .bgOne {
+  background: url(../images/sharapat.png) no-repeat center !important;
+}
+
+.newsMore .rightItem .bgTwo {
+  background: url(../images/yordam.png) no-repeat center !important;
+}
+
+.newsMore .rightItem .bgThree {
+  background: url(../images/shavkat.png) no-repeat center !important;
+}
+
+.newsMore .rightItem .bgFive {
+  background: url(../images/bilim.png) no-repeat center !important;
+}
+
+.newsMore .someNews h6 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height, or 120% */
+  letter-spacing: 0.2px;
+  /* Extra color 2 */
+  color: #00264d;
+}
+
+.share img {
+  margin-left: 10px;
+}
+/*# sourceMappingURL=newsActive.css.map */

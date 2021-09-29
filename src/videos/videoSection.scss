@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600&display=swap");
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.main {
+	.lastNews {
+		.searchDiv {
+			position: relative;
+			margin-left: 33%;
+			.searchArea {
+				outline: none;
+				border-radius: 25px;
+				border: 1px solid gray;
+				padding: 5px 10px 5px 40px;
+				font-family: Inter;
+			}
+			.searchGray {
+				position: absolute;
+				top: 7px;
+				left: 10px;
+				cursor: pointer;
+			}
+		}
+	}
+	.row {
+		.product {
+			position: relative;
+			.price {
+				padding: 0 15px 5px 5px;
+				p {
+					margin: 0.5rem 0;
+					font-size: 12px;
+				}
+				h6 {
+					margin: 0;
+				}
+			}
+			.duration {
+				position: absolute;
+				bottom: 95px;
+				right: 10px;
+				span {
+					font-family: inter;
+					font-style: normal;
+					font-weight: normal;
+					font-size: 10px;
+					line-height: 16px;
+					color: #fff;
+				}
+			}
+		}
+	}
+	.videoTitle {
+		h2 {
+			font-family: Inter;
+			font-style: normal;
+			font-weight: 500;
+			font-size: 40px;
+			line-height: 56px;
+			color: #121212;
+		}
+		img {
+			cursor: pointer;
+		}
+	}
+	.share {
+		a {
+			display: flex;
+			align-items: center;
+			margin-right: 30px;
+			text-decoration: none;
+			color: #121212;
+			font-family: Inter;
+			font-style: normal;
+			font-weight: 600;
+			font-size: 16px;
+			line-height: 24px;
+			letter-spacing: 0.44px;
+			img {
+				margin-right: 15px;
+			}
+		}
+	}
+	.myComment {
+		input {
+			border: none;
+			border-bottom: 1px solid #f1f1f1;
+			outline: none;
+			margin-left: 10px;
+			width: 50%;
+			&::placeholder {
+				color: #bdbdbd;
+			}
+		}
+	}
+	.userComment {
+		.userAvatar {
+			margin-right: 10px;
+		}
+		.gtr {
+			p {
+				margin: 0;
+				font-family: Inter;
+				font-style: normal;
+				font-weight: 300;
+				font-size: 12px;
+				line-height: 15px;
+				letter-spacing: 0.44px;
+				color: #4f4f4f;
+			}
+			h5 {
+				font-family: Inter;
+				font-style: normal;
+				font-weight: normal;
+				font-size: 16px;
+				line-height: 22px;
+				letter-spacing: 0.44px;
+				color: #121212;
+			}
+			.share {
+				a {
+					font-size: 14px;
+					line-height: 16px;
+				}
+			}
+		}
+	}
+}
